@@ -2,6 +2,7 @@ public class PrintPrimeNumber {
 
 	//check weather a number is prime or not
 	public static boolean Is_prime(int num_to_check){
+		b=5
 		for(int i =2; i<num_to_check; i++){
 			if(num_to_check%i==0){
 				return false;
